@@ -1,0 +1,85 @@
+@import "null.css";
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.erti {
+	background-color: blueviolet;
+	width: 50px;
+	height: 50px;
+}
+.ori {
+	background-color: blueviolet;
+	visibility: hidden;
+	width: 50px;
+	height: 50px;
+}
+.ori:hover {
+	visibility: visible;
+}
+.erti:hover ~ .ori {
+	visibility: visible;
+}
+
+.sami {
+	background-color: blueviolet;
+	width: 100%;
+	height: 50px;
+	visibility: hidden;
+}
+.ori:hover ~ .sami {
+	visibility: visible;
+}
+.sami:hover {
+	visibility: visible;
+}
+.otxi {
+	background-color: blueviolet;
+	width: 50px;
+	height: 100px;
+	visibility: hidden;
+	margin: 0 0 0 auto;
+}
+.otxi:hover {
+	visibility: visible;
+}
+.sami:hover ~ .otxi {
+	visibility: visible;
+}
+
+.xuti {
+	background-color: blueviolet;
+	width: 50%;
+	height: 10px;
+	visibility: hidden;
+	margin: 0 0 0 auto;
+}
+.xuti:hover {
+	visibility: visible;
+}
+.otxi:hover ~ .xuti {
+	visibility: visible;
+}
+
+.eqvsi {
+	background-color: blueviolet;
+	width: 8px;
+	height: 80px;
+	visibility: hidden;
+	margin: 0 400px 0 auto;
+}
+.eqvsi:hover {
+	visibility: visible;
+}
+.xuti:hover ~ .eqvsi {
+	visibility: visible;
+}
+.shvidi {
+	visibility: hidden;
+	text-align: center;
+	font-size: 28px;
+	color: red;
+}
+.eqvsi:hover ~ .shvidi {
+	visibility: visible;
+}
